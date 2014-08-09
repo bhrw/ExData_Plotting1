@@ -1,7 +1,7 @@
 #load data and creates subset for the specific dates, convert date format
 source("Load_the_data.R")
 
-#output to file
+#output to png file
 png("plot3.png", width=480, height=480) 
 
 #Create empty plot, then add lines
