@@ -1,3 +1,5 @@
+source("Load_the_data.R")
+
 png("plot1.png", width=480, height=480)
 
 hist(power2$Global_active_power, col="red", 
