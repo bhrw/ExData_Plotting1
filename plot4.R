@@ -2,7 +2,7 @@
 source("Load_the_data.R")
 
 #output to png file
-png("plot4.png", width=480, height=480) 
+png("plot4.png", width=480, height=480)  
 
 #create 2 x 2 frame, and create the 4 plots
 par(mfrow=c(2,2))
